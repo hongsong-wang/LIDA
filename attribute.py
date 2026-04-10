@@ -13,7 +13,7 @@ def main():
     parser.add_argument('--weight_path', type=str, default='/path/to/weights.pth')
     parser.add_argument('--save_dir', type=str, default='/path/to/features')
     parser.add_argument('--gpuid', type=int, default=0)
-    parser.add_argument('--num_query_per_class', type=int, default=199)
+    parser.add_argument('--num_query_per_class', type=int, default=2000)
     parser.add_argument('--mode', type=str, default='full')
     parser.add_argument('--patch_mode', type=str, default='max')
     parser.add_argument('--patch_size', type=int, default=32)
