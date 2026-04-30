@@ -15,7 +15,7 @@ python feature.py --dataset_path='/path/to/dataset'
                   --patch_mode='random/max/min'
                   --patch_size=32
 ```
-The last two parameters are effective only when mode is set to 'patch'. Additionally, we provide the finetuned [weights](https://pan.baidu.com/s/1xqP-asn2nuMZHMg2ny0aZA?pwd=k2gq) (code: k2gq) for evaluation. You can download the weights and easily evaluate LIDA.
+The last two parameters are effective only when mode is set to 'patch'. Additionally, we provide the finetuned weights ([Baidu](https://pan.baidu.com/s/1xqP-asn2nuMZHMg2ny0aZA?pwd=k2gq) (code: k2gq) and [OneDrive](https://1drv.ms/u/c/52374438c618b7f2/IQALnU7DV8hqQIru2ff6MnIzAZ_gOjQlKjq2OcloUcVKS3I?e=D1RpuQ)) for evaluation. You can download the weights and easily evaluate LIDA.
 
 ## Evaluation
 You can evaluate LIDA on GenImage with Rank-1 and mAP reported by running the following command:
